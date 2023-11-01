@@ -1,0 +1,13 @@
+//implementation of thtrerad using thread class.
+public class Main extends Thread{
+    public static void main(String [] args)
+    {
+        Main thread=new Main();
+        thread.start();
+        System.out.println("this code is outside the thread");
+    }
+    public void run()
+    {
+        System.out.println("this code is running in a thread");
+    }
+}
