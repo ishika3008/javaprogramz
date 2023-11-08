@@ -1,0 +1,16 @@
+public class Main
+{
+    public void PrintArray(String s[])
+    {
+        for(int i=0;i<s.length;i++)
+        {
+            System.out.println(s[i]);
+        }
+    }
+    public static void main(String args[])
+    {
+        Main m=new Main();
+        String[] s1=new String[]{"Ishika","ishi","img","dhkall"};
+        m.PrintArray(s1);
+    }
+}
