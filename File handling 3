@@ -1,0 +1,19 @@
+import java.io.File;
+public class Main
+{
+	public static void main(String[] args) {
+	try{
+	    	File file =new File("a.txt");
+	  boolean value=file.delete();
+	  if(value){
+	      System.out.println("the file is deleted");
+	  }
+	  else{
+	       System.out.println("the file is not deleted");
+	  }
+	}
+	catch(Exception e){
+	    e.getStackTrace();
+	}
+	}
+}
